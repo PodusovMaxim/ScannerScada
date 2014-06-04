@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<nodes>
+  <node>
+    <info IP="192.168.1.101" name="server-oracle"/>
+    <OS>
+      <operand vendor="Microsoft" osfamily="Windows" osgen="2000" prob='30'/>
+      <operand vendor="Microsoft" osfamily="Windows" osgen="XP" prob='70'/>
+    </OS>
+    <PORTS>
+      <operand port='445' protocol='tcp' status='open' service='Microsoft Windows XP microsoft-ds' product='microsoft-ds' version='unknown'/>
+      <operand port='1027' protocol='tcp' status='open' service='Oracle Database' product='oracle' version='9.2.0.1.0'/>
+      <operand port='1521' protocol='tcp' status='open' service='Oracle TNS Listener' product='oracle-tns' version='9.2.0.1.0'/>
+    </PORTS>
+  </node>
+</nodes>
+

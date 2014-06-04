@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<database>
+  <vulnerability>
+    <info name="CVE-2009-1965" CVSS="5.4" url="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-1965"
+          description="Unspecified vulnerability in the Net Foundation Layer component in Oracle Database 9.2.0.8 and 10.1.0.5 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors."/>
+    <OR>
+      <AND>
+        <operand name="Oracle database server" version="10.1.0.5"/>
+        <operand name="Microsoft Windows" version="all"/>
+      </AND>
+      <AND>
+        <operand name="Oracle database server" version="9.2.0.8"/>
+        <operand name="Microsoft Windows" version="all"/>
+      </AND>
+    </OR>
+  </vulnerability>
+</database>
+
